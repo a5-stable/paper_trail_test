@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @special_user.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @special_user.age %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @special_user.description %>
+</p>
+
+<p>
+  <strong>Favorite food:</strong>
+  <%= @special_user.favorite_food %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @special_user.published %>
+</p>
+
+<%= link_to 'Edit', edit_special_user_path(@special_user) %> |
+<%= link_to 'Back', special_users_path %>

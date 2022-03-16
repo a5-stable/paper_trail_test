@@ -1,0 +1,2 @@
+module SpecialUsersHelper
+end
